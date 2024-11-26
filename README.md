@@ -1,68 +1,69 @@
-# React-Node Recipe App 🍲
 
-Welcome to the React-Node Recipe App! This application allows users to view, add, and manage their favorite recipes. It's built using React for the frontend and Node.js with Prisma for the backend.
+# Application de Recettes React-Node 🍲
 
-## Getting Started 🚀
+Bienvenue dans l'application de recettes React-Node ! Cette application permet aux utilisateurs de consulter, ajouter et gérer leurs recettes préférées. Elle est construite avec React pour le frontend et Node.js avec Prisma pour le backend.
 
-### Prerequisites:
+## Commencer 🚀
 
-- Node.js and npm installed on your machine.
-- An account on [Render Postgresql](https://render.com/docs/postgresql-creating-connecting) for the database. utiliser lien externe pour le dev
-- A [Spoonacular API key](https://spoonacular.com/food-api) for the recipe API
+### Prérequis :
 
-### Setting Up:
+- Node.js et npm installés sur votre machine.
+- Un compte sur [Render Postgresql](https://render.com/docs/postgresql-creating-connecting) pour la base de données (utilisez un lien externe pour le développement).
+- Une [clé API Spoonacular](https://spoonacular.com/food-api) pour l'API de recettes.
 
-1. **Clone the Repository**:
+### Configuration :
+
+1. **Cloner le dépôt** :
    ```bash
-   git clone https://github.com/chrisblakely01/react-node-recipe-app.git
-   cd react-node-recipe-app
+   git clone https://github.com/alexkanga/recipe.git
+   cd recipe
    ```
 
-2. **Setting up the Backend**:
+2. **Configuration du Backend** :
 
-   - Navigate to the backend directory:
+   - Accédez au répertoire backend :
      ```bash
      cd backend
      ```
 
-   - Install the necessary packages:
+   - Installez les packages nécessaires :
      ```bash
      npm install
      ```
 
-   - **Spoonacular API**:
-     - Add the api key to the API_KEY variable in the .env file   
+   - **API Spoonacular** :
+     - Ajoutez la clé API à la variable `API_KEY` dans le fichier `.env`.
 
-   - **ElephantSQL Setup**:
-     - Create a new database instance on ElephantSQL.
-     - Copy the connection string provided by ElephantSQL.
+   - **Configuration d'ElephantSQL** :
+     - Créez une nouvelle instance de base de données sur ElephantSQL.
+     - Copiez la chaîne de connexion fournie par ElephantSQL.
 
-   - **Prisma Setup**:
-     - Replace the `DATABASE_URL` in the `.env` file with your ElephantSQL connection string.
-     - Initialize Prisma and generate the Prisma client:
+   - **Configuration de Prisma** :
+     - Remplacez la valeur de `DATABASE_URL` dans le fichier `.env` par la chaîne de connexion ElephantSQL.
+     - Initialisez Prisma et générez le client Prisma :
        ```bash
        npx prisma init
        npx prisma generate
        ```
 
-   - Start the backend server:
+   - Démarrez le serveur backend :
      ```bash
      npm start
      ```
 
-3. **Setting up the Frontend**:
+3. **Configuration du Frontend** :
 
-   - Navigate to the frontend directory:
+   - Accédez au répertoire frontend :
      ```bash
      cd frontend
      ```
 
-   - Install the necessary packages:
+   - Installez les packages nécessaires :
      ```bash
      npm install
      ```
 
-   - Start the frontend development server:
+   - Démarrez le serveur de développement frontend :
      ```bash
      npm run dev
      ```
