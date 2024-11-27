@@ -78,20 +78,20 @@ const App = () => {
     <div className="app-container">
       <div className="header">
         <img src="/hero-image.jpg"></img>
-        <div className="title">My Recipe App</div>
+        <div className="title">Mon application de recette</div>
       </div>
       <div className="tabs">
         <h1
           className={selectedTab === "search" ? "tab-active" : ""}
           onClick={() => setSelectedTab("search")}
         >
-          Recipe Search
+          Rechercher une recette du monde
         </h1>
         <h1
           className={selectedTab === "favourites" ? "tab-active" : ""}
           onClick={() => setSelectedTab("favourites")}
         >
-          Favourites
+          Mes Favoris
         </h1>
       </div>
 
@@ -101,7 +101,7 @@ const App = () => {
             <input
               type="text"
               required
-              placeholder="Enter a search term ..."
+              placeholder="Tapez un mot clé pour rechercher une recette..."
               value={searchTerm}
               onChange={(event) => setSearchTerm(event.target.value)}
             ></input>
@@ -130,7 +130,7 @@ const App = () => {
           </div>
 
           <button className="view-more-button" onClick={handleViewMoreClick}>
-            View More
+            Voir plus de recettes
           </button>
         </>
       )}
