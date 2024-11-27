@@ -77,6 +77,7 @@ const App = () => {
   return (
     <div className="app-container">
       <div className="header">
+        <img src="/logo-monde.jpg"></img>
         <img src="/hero-picture.jpg"></img>
         <div className="title">Découvrez, partagez et savourez vos recettes préférées !</div>
       </div>
