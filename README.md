@@ -34,12 +34,12 @@ Bienvenue dans l'application de recettes React-Node ! Cette application permet
    - **API Spoonacular** :
      - Ajoutez la clé API à la variable `API_KEY` dans le fichier `.env`.
 
-   - **Configuration d'ElephantSQL** :
-     - Créez une nouvelle instance de base de données sur ElephantSQL.
-     - Copiez la chaîne de connexion fournie par ElephantSQL.
+   - **Configuration de postgresqL sur render externe** :
+     - Créez une nouvelle instance de base de données sur PostgreSQL render.
+     - Copiez la chaîne de connexion PostgreSQL fournie .
 
    - **Configuration de Prisma** :
-     - Remplacez la valeur de `DATABASE_URL` dans le fichier `.env` par la chaîne de connexion ElephantSQL.
+     - Remplacez la valeur de `DATABASE_URL` dans le fichier `.env` par la chaîne de connexion PostgreSQL.
      - Initialisez Prisma et générez le client Prisma :
        ```bash
        npx prisma init
