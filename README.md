@@ -1,7 +1,7 @@
 
 # Application de Recettes React-Node 🍲
 
-Bienvenue dans l'application de recettes React-Node ! Cette application permet aux utilisateurs de consulter, ajouter et gérer leurs recettes préférées. Elle est construite avec React pour le frontend et Node.js avec Prisma pour le backend.
+Bienvenue dans l'application de recettes React-Node ! Cette application permet aux utilisateurs de consulter, ajouter et gérer leurs recettes préférées. Elle est construite avec React pour le frontend et Node.js avec l'ORM Prisma pour le backend. Elle utilise également la base de données PostgreSQL de render.com
 
 ## Commencer 🚀
 
