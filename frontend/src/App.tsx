@@ -101,7 +101,7 @@ const App = () => {
             <input
               type="text"
               required
-              placeholder="Tapez un mot clé pour rechercher une recette..."
+              placeholder="Tapez un mot clé (en anglais) pour rechercher une recette..."
               value={searchTerm}
               onChange={(event) => setSearchTerm(event.target.value)}
             ></input>
