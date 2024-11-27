@@ -78,7 +78,7 @@ const App = () => {
     <div className="app-container">
       <div className="header">
         <img src="/hero-picture.jpg"></img>
-        <div className="title">Découvrez, partagez et savourez vos recettes préférées, toutes en un seul endroit !</div>
+        <div className="title">Découvrez, partagez et savourez vos recettes préférées !</div>
       </div>
       <div className="tabs">
         <h1
