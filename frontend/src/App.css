@@ -153,3 +153,13 @@ button {
   align-items: center;
   gap: 0.5em;
 }
+
+.logo{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top:100px;
+  
+}
+
+/* 27-11-2024 */

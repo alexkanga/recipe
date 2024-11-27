@@ -77,7 +77,7 @@ const App = () => {
   return (
     <div className="app-container">
    
-      <img src="/logo-monde.jpg" width="132" height="132"></img>
+      <img className="logo" src="/logo-monde.jpg"></img>
       <div className="header">
         
         <img src="/hero-picture.jpg"></img>
